@@ -263,25 +263,3 @@ for texto, valor in opcoes:
 janela.protocol("WM_DELETE_WINDOW", fechar_janela)
  
 janela.mainloop()
-
-
-# Função de login 
-"""def login():
-    global SALDO, conta_atual, saldos
-
-    conta_atual = usuario_entry.get().strip()
-
-    saldos = carregar_saldo()
-    if conta_atual in saldos:
-        SALDO = saldos[conta_atual]
-    else:
-        SALDO = SALDO_INICIAL
-        saldos[conta_atual] = SALDO
-        salvar_saldo(saldos)
-
-# Esconde o frame de login e o botão de login
-
-
-    frame_login.pack_forget()
-    botao_login.pack_forget()
-"""

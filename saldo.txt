@@ -1,3 +1,3 @@
+ei:100.0
 :1000.0
-pietro:67.0
-pietro six seven:67.0
+pietro:1000.0
